@@ -3,7 +3,10 @@
 Official .NET / C# client for the [dogabot public API](https://docs.dogabot.com/).
 
 ```bash
-dotnet add package Dogabot.Sdk
+# NuGet.org publish pending — until then, clone and reference the project:
+#   git clone https://github.com/dogabot/dogabot-sdk-dotnet
+#   dotnet add reference path/to/dogabot-sdk-dotnet/src/Dogabot.Sdk/Dogabot.Sdk.csproj
+# After NuGet.org: dotnet add package Dogabot.Sdk
 ```
 
 ```csharp
