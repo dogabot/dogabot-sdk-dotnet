@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Dogabot.Sdk</RootNamespace>
+    <AssemblyName>Dogabot.Sdk</AssemblyName>
+    <PackageId>Dogabot.Sdk</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>dogabot</Authors>
+    <Description>Official dogabot REST API SDK for .NET</Description>
+    <PackageProjectUrl>https://docs.dogabot.com/sdk/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dogabot/dogabot-sdk-dotnet</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>dogabot;trading;sdk;api</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+</Project>
